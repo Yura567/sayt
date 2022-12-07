@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    float: left;
+}
+.title{
+    width: 100%;
+    background-color: blanchedalmond;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title_text{
+    font-size: 50px;
+    font-family:sans-serif;
+    margin-bottom: 50px;
+}
+.opis{
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+.big_block{
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.mini_block1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.mini_block2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        margin-bottom: 30px;
+}
+
+
+.post1{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+
+}
+.post1::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post1:hover::before{
+    opacity: 1;
+}
+.one_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.one_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post1:hover .one_title > span{
+    transform: translateY(0);
+}
+.post1:hover .one{
+    transform: scale(1.05);
+}
+.post2{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+
+}
+.post2::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post2:hover::before{
+    opacity: 1;
+}
+.two_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.two_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post2:hover .two_title > span{
+    transform: translateY(0);
+}
+.post2:hover .two{
+    transform: scale(1.05);
+}
+
+.post3{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.post3::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post3:hover::before{
+    opacity: 1;
+}
+.three_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.three_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post3:hover .three_title > span{
+    transform: translateY(0);
+}
+.post3:hover .three{
+    transform: scale(1.05);
+}
+
+.post12{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+}
+.post12::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post12:hover::before{
+    opacity: 1;
+}
+.four_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.four_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post12:hover .four_title > span{
+    transform: translateY(0);
+}
+.post12:hover .four{
+    transform: scale(1.05);
+}
+.post22{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 90px;
+
+}
+
+.post22::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post22:hover::before{
+    opacity: 1;
+}
+.five_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.five_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post22:hover .five_title > span{
+    transform: translateY(0);
+}
+.post22:hover .five{
+    transform: scale(1.05);
+}
+
+.post32{
+    width: 300px;
+    height: 415px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.post32::before{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 2;
+    transition: all .4s ease;
+    content: '';
+}
+.post32:hover::before{
+    opacity: 1;
+}
+.six_title{
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 3;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.six_title > span{
+    display: block;
+    transform: translateY(30px);
+    transition: transform .5s ease;
+    
+}
+.post32:hover .six_title > span{
+    transform: translateY(0);
+}
+.post32:hover .six{
+    transform: scale(1.05);
+}
+
+.one{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+.three{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+.five{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+.six{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .04s ease;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.footer_box{
+    width: 100%;
+    float: left;
+    height: 150px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.f_mini_box1{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.f_mini_box2{
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.img_y{
+    width: 30px;
+    height: 30px;
+}
+.img_f{
+    width: 30px;
+    height: 30px;
+}
+.img_i{
+    width: 30px;
+    height: 30px;
+}
